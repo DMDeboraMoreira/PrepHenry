@@ -1,0 +1,60 @@
+body{background-color: blanchedalmond;
+
+}
+
+.titulo{
+    font-size: 3em;
+    color: saddlebrown;
+
+}
+.logo{ 
+    width: 700px;
+    height: 700px;
+}
+ 
+
+#principal{
+    font-size: 5em
+    
+}
+#titulos{ 
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    padding: 3em;
+    margin: auto;
+    width: 70vw;
+    
+    
+   
+}
+
+.tarjetitas{ 
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    transition: 1s;
+    border-radius: 7%;
+    padding: 1em 1em 2em 1em;
+    width: fit-content;
+    border:2px solid black
+    
+           
+}
+.tarjetitas:hover{
+    background-color: rgb(245, 179, 131);
+}
+#contenedor-tarjetitas{
+   
+    width: 85vw;
+    margin: auto;
+    margin-top: 2em;
+    border: 7px solid black;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
